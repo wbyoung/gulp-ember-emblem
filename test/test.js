@@ -31,7 +31,7 @@ describe('gulp-ember-emblem', function() {
 
     it('should emit an error when compiling invalid templates', function(done) {
       var stream = emberEmblemPlugin();
-      var invalidTemplate = getFixture('Invalid.em');
+      var invalidTemplate = getFixture('invalid.em');
 
       stream.on('error', function(err) {
         err.should.be.an.instanceOf(Error);
