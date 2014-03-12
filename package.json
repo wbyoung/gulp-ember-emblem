@@ -1,6 +1,6 @@
 {
   "name": "gulp-ember-emblem",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp task for Emblem.js templates with Ember",
   "homepage": "https://github.com/wbyoung/gulp-ember-emblem",
   "main": "index.js",
