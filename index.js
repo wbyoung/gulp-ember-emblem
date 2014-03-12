@@ -18,13 +18,13 @@ module.exports = function(options) {
     catch (err) { this.emit('error', err); }
     if (compiled) {
       file.contents = new Buffer(compiled);
-      file.path = file.path.slice(0, -path.extname(file.path).length) + '.js';
+      file.path = gutil.replaceExtension(file.path, '.js');
       file.defineModuleOptions = {
         require: { Ember: 'ember' },
         context: {
           emberHandlebars: 'Ember.Handlebars.template(<%= contents %>)'
         },
-        wrapper: 'Ember.TEMPLATES[\'<%= name %>\'] = <%= emberHandlebars %>'
+        wrapper: '(Ember.TEMPLATES[\'<%= name %>\'] = <%= emberHandlebars %>)'
       };
       this.queue(file);
     }
