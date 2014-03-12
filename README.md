@@ -33,7 +33,8 @@ gulp-ember-emblem outputs a raw handlebars function, so it is likely that you wi
 
 gulp-ember-emblem makes the following available for use in the [define-module wrapper](https://github.com/wbyoung/gulp-define-module#optionswrapper):
 
- - `emberHandlebars`: The handlebars template fully wrapped (`Ember.Handlebars.template(<%= contents %>)`).
+ - `emberHandlebars`:  
+   The handlebars template fully wrapped (`Ember.Handlebars.template(<%= contents %>)`).
 
 
 ## API
