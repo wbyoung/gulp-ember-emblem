@@ -11,6 +11,13 @@
     "type": "git",
     "url": "git://github.com/wbyoung/gulp-ember-emblem.git"
   },
+  "keywords": [
+    "gulpplugin",
+    "gulpfriendly",
+    "ember",
+    "emblem",
+    "handlebars"
+  ],
   "author": "Whitney Young",
   "license": "MIT",
   "dependencies": {
