@@ -1,4 +1,7 @@
-# gulp-ember-emblem [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
+# gulp-ember-emblem
+
+[![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url] [![Code Climate][codeclimate-image]][codeclimate-url] [![Dependencies][david-image]][david-url]
+
 
 This is a gulp plugin to process [Emblem.js](http://emblemjs.com) templates specifically for [Ember](http://emberjs.com/).
 
@@ -51,6 +54,10 @@ Compiler options to pass to `Emblem.precompile()`.
 [travis-image]: https://secure.travis-ci.org/wbyoung/gulp-ember-emblem.png?branch=master
 [npm-url]: https://npmjs.org/package/gulp-ember-emblem
 [npm-image]: https://badge.fury.io/js/gulp-ember-emblem.png
+[codeclimate-image]: https://codeclimate.com/github/wbyoung/gulp-ember-emblem.png
+[codeclimate-url]: https://codeclimate.com/github/wbyoung/gulp-ember-emblem
+[david-image]: https://david-dm.org/wbyoung/gulp-ember-emblem.png?theme=shields.io
+[david-url]: https://david-dm.org/wbyoung/gulp-ember-emblem
 
 [gulp-define-module]: https://github.com/wbyoung/gulp-define-module
 [gulp-handlebars]: https://github.com/lazd/gulp-handlebars
