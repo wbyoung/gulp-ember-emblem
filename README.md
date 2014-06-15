@@ -50,6 +50,11 @@ Type: `Object`
 Compiler options to pass to `Emblem.precompile()`.
 
 
+## License
+
+This project is distributed under the MIT license.
+
+
 [travis-url]: http://travis-ci.org/wbyoung/gulp-ember-emblem
 [travis-image]: https://secure.travis-ci.org/wbyoung/gulp-ember-emblem.png?branch=master
 [npm-url]: https://npmjs.org/package/gulp-ember-emblem
