@@ -1,6 +1,6 @@
 # gulp-ember-emblem
 
-[![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url] [![Code Climate][codeclimate-image]][codeclimate-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][david-image]][david-url]
+[![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url] [![Code Climate][codeclimate-image]][codeclimate-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][david-image]][david-url] [![devDependencies][david-dev-image]][david-dev-url]
 
 
 This is a gulp plugin to process [Emblem.js](http://emblemjs.com) templates specifically for [Ember](http://emberjs.com/).
@@ -65,6 +65,8 @@ This project is distributed under the MIT license.
 [coverage-url]: https://coveralls.io/r/wbyoung/gulp-ember-emblem
 [david-image]: https://david-dm.org/wbyoung/gulp-ember-emblem.png?theme=shields.io
 [david-url]: https://david-dm.org/wbyoung/gulp-ember-emblem
+[david-dev-image]: https://david-dm.org/wbyoung/gulp-ember-emblem/dev-status.png?theme=shields.io
+[david-dev-url]: https://david-dm.org/wbyoung/gulp-ember-emblem#info=devDependencies
 
 [gulp-define-module]: https://github.com/wbyoung/gulp-define-module
 [gulp-handlebars]: https://github.com/lazd/gulp-handlebars
